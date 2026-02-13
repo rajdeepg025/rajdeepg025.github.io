@@ -1,0 +1,173 @@
+
+            .pro-img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 8px;
+
+            }
+            button {
+                background-color: rgb(0, 153, 255);
+                border: none;
+                padding-left: 13px;
+                padding-right: 13px;
+                font-family: arial;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                color: white;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                font-size: 16px;
+                transition: opacity 0.15s;
+            }
+            .page {
+                background-color: rgb(34, 34, 34);
+                display: inline-block;
+                border-radius: 10px;
+                box-shadow: 0px 5px 10px rgba(185, 185, 185, 0.5);
+                border: 1px solid gray;
+                border-width: 2px;
+                margin-right: 11px;
+                vertical-align: top;
+                margin-bottom: 40px;
+            }
+            .head {
+                font-size: 20px;
+                font-family: arial;
+                font-weight: bold;
+                margin-left: 5px;
+                color: white;
+                
+            }
+            .frd {
+                font-family: arial;
+                color: rgb(161, 161, 161);
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                
+            }
+            button:hover {
+                opacity: 0.7;
+            }
+            button:active {
+                opacity: 0.4;
+            }
+            h1 {
+                font-family: arial;
+                margin-bottom: 20px;
+            }
+            .frd-sp {
+                display: inline-block;
+                width: 200px;
+                vertical-align: top;
+            }
+            .profile-logo {
+                display: inline-block;
+                width: 35px;
+            }
+            .profile {
+                width: 24px;
+                border-radius: 12px;
+                margin-left: 10px;
+                vertical-align: top;
+            }
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+         
+            .main-pg1 {
+                padding: 30px;
+                background-color: rgba(20, 20, 20, 0.836);
+                flex: 1;
+                border-radius: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                
+            }
+            .main-pg {
+                margin-right: 0px;
+            }
+
+            .nav-pot {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                top: 0;
+                color: white;
+                background-color: rgba(20, 20, 20, 0.966);
+                width: 220px;
+                transition: width 0.15s;
+            }
+            .nav-pot:hover {
+                width: 260px;
+            }
+
+            body {
+                background-color: rgb(14, 14, 14);
+                padding-left: 260px;
+            }
+            .top-side {
+                color: white;
+                font-family: arial;
+                font-weight: bold;
+                margin-left: 20px;
+                font-size: 40px;
+            }
+            .layout {
+                display: flex;
+            }
+            .sidebar1 {
+                height: 60px;
+                margin-left: 20px;
+                margin-top: 20px;
+                margin-bottom: 100px;
+
+
+            }
+            .insta-logo {
+                width: 50px;
+                border-radius: 28px;
+            }
+            .sidebar2 {
+                margin-top: 80px;
+                margin-left: 20px;
+            }
+            .sidebar2,
+            .sidebar1,
+            .sidebar3,
+            .sidebar4,
+            .sidebar5,
+            .sidebar6,
+            .sidebar7 {
+                margin: 20px 20px 0px 10px;
+                height: 85px;
+                font-size: 20px;
+                font-family: arial;
+                transition: color 0.15s;
+                
+                
+            }
+            .sidebar7 {
+                height: 60px;
+            }
+            .sidebar6 {
+                height: 50px;
+            }
+            .dot {
+                text-align: right;
+                margin-right: 20px;
+                
+            }
+            .sidebar2:hover,
+            .sidebar1:hover,
+            .sidebar3:hover,
+            .sidebar4:hover,
+            .sidebar5:hover,
+            .sidebar7:hover {
+                color: gray;
+                cursor: pointer;
+            }
