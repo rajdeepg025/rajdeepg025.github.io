@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>image testing</title>
+        <title>Add Anime Friend</title>
        <link rel="stylesheet" href="index.css">
     </head>
     <body>
@@ -32,9 +32,9 @@
       <div class="main-pg">
         <div class="page">       
         <img class="pro-img" src="anime/smile.png" alt="hotty">
-        <p class="head">Ora</p>
+        <p class="head">Marin</p>
         <p class="frd">2 mutal friends</p>
-        <button>Add friend</button>
+        <button onclick="addFriend(this);">Add friend</button>
         </div> 
         
         <div class="page">
@@ -52,7 +52,7 @@
                 <p class="frd">7 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
         
         </div>
@@ -69,7 +69,7 @@
                 <p class="frd">2 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
         </div>
          <div class="page"> 
@@ -86,7 +86,7 @@
                 <p class="frd">2 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
             
         </div> 
@@ -94,7 +94,7 @@
         <img class="pro-img" src="anime/Nobara Kugisaki From Jujutsu Kaisen.jpeg" alt="hotty">
         <p class="head">Nobara Kugisaki</p>
         <p class="frd">2 mutal friends</p>
-        <button>Add friend</button>
+        <button onclick="addFriend(this);">Add friend</button>
         </div> 
         
         <div class="page">
@@ -103,7 +103,7 @@
             </div>
 
             <div>
-                <p class="head">Nazu</p>
+                <p class="head">Mikasa</p>
             </div>
              <div class="profile-logo">
                 <img class="profile" src="anime/Nobara Kugisaki From Jujutsu Kaisen.jpeg" alt="hotty">
@@ -112,7 +112,7 @@
                 <p class="frd">2 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
         
         </div>
@@ -129,7 +129,7 @@
                 <p class="frd">4 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
         </div>
          <div class="page"> 
@@ -146,7 +146,7 @@
                 <p class="frd">2 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
             
         </div> 
@@ -154,7 +154,7 @@
         <img class="pro-img" src="anime/Reze • Chainsaw Man.jpeg" alt="hotty">
         <p class="head">Reze</p>
         <p class="frd">1 mutal friends</p>
-        <button>Add friend</button>
+        <button onclick="addFriend(this);">Add friend</button>
         </div> 
         
         <div class="page">
@@ -172,7 +172,7 @@
                 <p class="frd">2 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
       </div>
               <div class="page">
@@ -181,7 +181,7 @@
             </div>
 
             <div>
-                <p class="head">Rukiya</p>
+                <p class="head">Wakana Gojo</p>
             </div>
              <div class="profile-logo">
                 <img class="profile" src="anime/grandmo.jpeg" alt="hotty">
@@ -190,7 +190,7 @@
                 <p class="frd">5 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
         </div>
                 <div class="page">
@@ -208,10 +208,18 @@
                 <p class="frd">3 mutal friends</p>
             </div>
             <div>
-                <button>Add friend</button>
+                <button onclick="addFriend(this);">Add friend</button>
             </div>
       </div>
       </div>
+
+    <script>
+        function addFriend(button) {
+            button.innerText = "Requested";
+            button.style.backgroundColor = "gray";
+            button.disabled = true;
+        }
+    </script>
     </body>
 
 </html>
