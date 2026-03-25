@@ -201,6 +201,8 @@
             video{
                 width: 70%;
                 justify-content: center;
+                height: auto;
+                display: block;
                 
             }
 
