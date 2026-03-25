@@ -119,8 +119,14 @@
             }
             .layout {
                 display: flex;
-                flex-direction: column;
+                
 
+            }
+
+            @media (max-margin= 768px) {
+                .layout{
+                    flex-direction: column;
+                }
             }
             .sidebar1 {
                 height: 60px;
@@ -195,62 +201,70 @@
                 white-space: nowrap;
                 scrollbar-width: none;
                 border-bottom: 1px solid gray;
-                margin-right: 40px;
+                gap: 10px;
+                padding: 10px;
             }
 
             video{
-                width: 70%;
-                justify-content: center;
+                width: 100%;
                 height: auto;
                 display: block;
-                
             }
 
             .channel-bar{
                 width: 60px;
                 height: 60px;
                 object-fit: cover;
-                border-radius: 30px;
+                border-radius: 50%;
                 margin: 10px 10px 20px 0px;
                 display: inline;
             }
 
             .post1 {
                 margin: 40px 30px 30px 30px;
+                
             }
 
             .channel-name{
                 color: white;
                 font-family: arial;
                 font-size: 22px;
-                margin: 0;
-                font-weight: bold;
+                margin: auto;
+                font-weight: 600;
             }
 
             .post1-bar{
-                align-items: center;
+                justify-content: space-between;
                 display: flex;
-                justify-content: center;
+                gap: 10px;
             }
 
             .likes-bar{
-                width: 300px;
-                height: 50px;
+                width: 100%;
                 object-fit: cover;
                 margin-top: 20px;
+                max-width: 300px;
             }
 
             .side-dot{
                 color: white;
                 display: flex;
+                font-size: 24px;
             }
 
             .post-barside{
                 display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
 
             .home-post{
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                width: 100%;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            .post-content{
+                margin: auto;
+                width: 100%;
             }
