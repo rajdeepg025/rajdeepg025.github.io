@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram-Setting</title>
     <link rel="stylesheet" href="index.css">
+    <script>
+     function toggleMenu() {
+     document.getElementById("sidebar").classList.toggle("active"); 
+   }
+</script>
 </head>
 <body>
-             <p class="top-side">Setting</p>
          <div class="layout">
-            <div class="nav-pot">
-                <div class="sidebar1">
-                    <img class="insta-logo" src="anime/icons8-instagram-logo-50.png" alt="Instagram"> 
-                </div>
+            <div class="nav-pot" id="sidebar">
+                <div class="menu-btn" onclick="toggleMenu()">☰</div>
                 <div class="sidebar2">
                     <a href="index.html">Home</a>
                 </div>
@@ -23,12 +25,14 @@
                     <a href="search.html">Scearch</a>
                 </div>
                 <div class="sidebar5">
-                     <a href="profile.html">Profile</a>
+                    <a href="profile.html">Profile</a>
                 </div>
                 <div class="sidebar6"></div>
                 <div class="sidebar7">
                     <a href="setting.html">Setting &vellip;</a> 
                 </div>
             </div>
+
+            <div class="top-side">Setting</div>
 </body>
 </html>

@@ -3,14 +3,16 @@
     <head>
         <title>Add Anime Friend</title>
        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-         <p class="top-side">Suggestion</p>
+    <script>
+     function toggleMenu() {
+     document.getElementById("sidebar").classList.toggle("active"); 
+   }
+</script>
+</head>
+<body>
          <div class="layout">
-            <div class="nav-pot">
-                <div class="sidebar1">
-                    <img class="insta-logo" src="anime/icons8-instagram-logo-50.png" alt="Instagram"> 
-                </div>
+            <div class="nav-pot" id="sidebar">
+                <div class="menu-btn" onclick="toggleMenu()">☰</div>
                 <div class="sidebar2">
                     <a href="index.html">Home</a>
                 </div>
@@ -21,13 +23,14 @@
                     <a href="search.html">Scearch</a>
                 </div>
                 <div class="sidebar5">
-                     <a href="profile.html">Profile</a>
+                    <a href="profile.html">Profile</a>
                 </div>
                 <div class="sidebar6"></div>
                 <div class="sidebar7">
                     <a href="setting.html">Setting &vellip;</a> 
                 </div>
             </div>
+            <p class="top-side">Suggestion</p>
       <div class="main-pg1"> 
       <div class="main-pg">
         <div class="page">       

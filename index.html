@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram-home page</title>
     <link rel="stylesheet" href="index.css">
+    <script>
+     function toggleMenu() {
+     document.getElementById("sidebar").classList.toggle("active"); 
+   }
+</script>
 </head>
 <body>
          <div class="layout">
-            <div class="nav-pot">
-                <div class="sidebar1">
-                    <img class="insta-logo" src="anime/icons8-instagram-logo-50.png" alt="Instagram"> 
-                </div>
+            <div class="nav-pot" id="sidebar">
+                <div class="menu-btn" onclick="toggleMenu()">☰</div>
                 <div class="sidebar2">
                     <a href="index.html">Home</a>
                 </div>
@@ -83,7 +86,7 @@
                 <div class="side-dot">&vellip;</div>
                 </div>
                 
-                <div class="post-content"><img src="anime/nazu.jpeg" alt="post"></div>
+                <div class="post-content"><img src="anime/nazu.jpeg" class="post-img" alt="post"></div>
                 
 
                 <div><img src="anime/IMG_20260325_000814.png" alt="likes" class="likes-bar"></div>
@@ -113,7 +116,7 @@
                 <div class="side-dot">&vellip;</div>
                 </div>
                 
-                <div class="post-content"><img src="anime/Momo Ayase.jpeg" alt="post"></div>
+                <div class="post-content"><img src="anime/Momo Ayase.jpeg" class="post-img" alt="post"></div>
                 
 
                 <div><img src="anime/IMG_20260325_000814.png" alt="likes" class="likes-bar"></div>
