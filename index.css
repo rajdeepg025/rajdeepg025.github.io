@@ -300,3 +300,28 @@
                 color: rgb(194, 194, 194);
                 border: solid;
             }
+
+            .banner-manhwa{
+                width: 97%;
+                height: 400px;
+                object-fit: fill;
+                padding: 20px;
+                border-radius: 30px;
+            }
+
+            p{
+                color: white;
+                font-family: arial;
+            }
+
+            .reading-page{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .reading-page-manhwa{
+                font-family: arial;
+                color: rgb(82, 82, 82);
+                font-size: 30px;
+                
+            }
