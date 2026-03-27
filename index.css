@@ -40,6 +40,11 @@
                 font-weight: bold;
                 margin-left: 5px;
                 color: white;
+                margin: 5px;
+                display: block;
+                line-height: 1.2;
+                overflow-wrap: anywhere;
+                word-break:  break-all;
                 
             }
             .frd {
@@ -85,10 +90,9 @@
                 flex: 1;
                 border-radius: 20px;
                 justify-content: center;
-                align-items: center;
                 margin-right: 0;
-                padding-left: 10%;
                 margin-top: 20px;
+                display: flex;
             }
             .main-pg {
                 margin-right: 0px;
@@ -106,7 +110,7 @@
                 transition: width 0.15s;
                 height: 100%;
                 padding-top: 60px;
-                
+                z-index: 1000;
             }
 
             .nav-pot.active{
@@ -134,7 +138,7 @@
                 
             }
 
-            @media (max-margin= 768px) {
+            @media (max-margin: 768px) {
                 .layout{
                     flex-direction: column;
                 }
@@ -301,12 +305,26 @@
                 border: solid;
             }
 
-            .banner-manhwa{
+            .slide{
                 width: 97%;
-                height: 400px;
-                object-fit: fill;
+                height: 100%;
+                object-fit: cover;
                 padding: 20px;
                 border-radius: 30px;
+                position: absolute;
+                display: none;
+            }
+
+            .banners{
+                width: 97%;
+                height: 400px;
+                position: relative;
+                overflow: hidden;
+                z-index: 1;
+            }
+
+            .slide.active{
+                display: block;
             }
 
             p{
@@ -316,12 +334,44 @@
 
             .reading-page{
                 margin-left: 10px;
-                margin-right: 10px;
+                margin-right: 10px
             }
 
             .reading-page-manhwa{
                 font-family: arial;
                 color: rgb(82, 82, 82);
                 font-size: 30px;
-                
+                border-bottom: 1px solid white;
+                margin-top: 10px;
+            }
+
+            .search-bar{
+                margin-top: 15px;
+            }
+
+            .space{
+                border: solid;
+                color: rgb(14, 14, 14);
+            }
+
+            .reading-page-manhwa-sec{
+                display: flex;
+                overflow-y: hidden;
+                overflow-x: auto;
+                gap: 20px;
+            }
+
+           .page1 {
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+                border-width: 2px;
+                margin-right: 11px;
+                vertical-align: top;
+                margin-bottom: 40px;
+                margin-top: 10px;
+                flex-shrink: 0;
+                width: 250px;
+                overflow: hidden;
+                box-sizing: border-box;
             }
